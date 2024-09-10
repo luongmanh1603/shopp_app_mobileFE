@@ -18,7 +18,7 @@ class HomeAppBar extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(left: 20),
             child: Text(
-              "Shop App",
+               "Shop App",
               style: TextStyle(
                 color: Color(0xff4c53A5),
                 fontSize: 30,
@@ -26,8 +26,8 @@ class HomeAppBar extends StatelessWidget {
               ),
             ),
             ),
-        Spacer(),
-        badges.Badge(
+         Spacer(),
+         badges.Badge(
           badgeContent: Text("3", style: TextStyle(color: Colors.white),),
           child: InkWell(
             onTap: (){},

@@ -5,7 +5,7 @@ class CartItemSamples extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column( children: [
-      for (var i = 1; i < 7; i++)
+      for (var i = 1; i < 6; i++)
       Container(
         height: 110,
         margin: EdgeInsets.symmetric(horizontal: 15, vertical: 10),

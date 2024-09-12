@@ -30,7 +30,9 @@ class HomeAppBar extends StatelessWidget {
          badges.Badge(
           badgeContent: Text("3", style: TextStyle(color: Colors.white),),
           child: InkWell(
-            onTap: (){},
+            onTap: (){
+              Navigator.pushNamed(context, "cartPage");
+            },
             child: Icon(
               Icons.shopping_bag_outlined
             ),
